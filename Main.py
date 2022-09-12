@@ -6,7 +6,7 @@ def selectionSort(array, size) -> List[int]:
     for ind in range(index + 1, size):
       if array[ind] < array[min_index]:
         min_index = ind
-    array[min_index], arrray[index] = array[index], array[min_index]
+    array[min_index], array[index] = array[index], array[min_index]
   return array
 
 # Do not change the following code
