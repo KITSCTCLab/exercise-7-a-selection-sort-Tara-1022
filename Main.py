@@ -1,6 +1,9 @@
 from typing import List
 
 def selectionSort(array, size) -> List[int]:
+  """
+  Function implementing selection sort algorithm to return the passed array sorted in the ascending order
+  """
   for index in range(size):
     min_index = index
     for ind in range(index + 1, size):
